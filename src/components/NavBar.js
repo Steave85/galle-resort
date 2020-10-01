@@ -27,6 +27,9 @@ export default class NavBar extends Component {
                     <ul className={this.state.isOpen ? 'nav-links show-nav': 'nav-links hide-nav'}>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/rooms">Rooms</Link> </li>
+                        <li><a href="https://www.srilanka.travel/">Blog</a> </li>
+                        <li><Link to="/about-us">About Us</Link> </li>
+                        <li><Link to="/contact-us">Contact</Link> </li>
                     </ul>
                 </div>
             </nav>
